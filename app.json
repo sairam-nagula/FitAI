@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "FitAI",
+    "slug": "fitai",
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "d34d80c2-ec7e-4c9b-bfcf-8b713cd140d6"
+      }
+    },
+    "owner": "gbh"
+  }
+}
