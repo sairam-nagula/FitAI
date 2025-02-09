@@ -3,11 +3,29 @@
     "name": "FitAI",
     "slug": "fitai",
     "version": "1.0.0",
+    "icon": "./fitailogo.png",
+    "splash": {
+      "image": "./fitailogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "extra": {
       "eas": {
         "projectId": "d34d80c2-ec7e-4c9b-bfcf-8b713cd140d6"
       }
     },
-    "owner": "gbh"
+    "owner": "gbh",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./fitailogo.png",       
+      "bundleIdentifier": "com.gbh.fitai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./fitailogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
   }
 }
