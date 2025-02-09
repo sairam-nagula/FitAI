@@ -7,6 +7,7 @@ import WorkoutScreen from './workoutscreen';
 import ChatCoachScreen from './chatcoach';
 import SignUpScreen from './SignUpScreen';
 import LoginScreen from './LoginScreen';
+import WalkthroughScreen from './WalkthroughScreen'; // Added WalkthroughScreen
 import { Ionicons } from '@expo/vector-icons';
 import { auth } from './firebaseConfig';
 import { Text, View } from 'react-native';
@@ -50,7 +51,8 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
+      <Stack.Navigator initialRouteName="Walkthrough">
+        <Stack.Screen name="Walkthrough" component={WalkthroughScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="SignUp" component={SignUpScreen} />
         <Stack.Screen

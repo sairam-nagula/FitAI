@@ -18,12 +18,12 @@
     "platforms": ["ios", "android"],
     "ios": {
       "supportsTablet": true,
-      "icon": "./fitailogo.png",       
+      "icon": "./images/fitailogo.png",       
       "bundleIdentifier": "com.gbh.fitai"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./fitailogo.png",
+        "foregroundImage": "./images/fitailogo.png",
         "backgroundColor": "#ffffff"
       }
     }
