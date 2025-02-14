@@ -1,0 +1,1 @@
+FitAI is a mobile fitness application that provides Personalized Workout Recommendations and an AI-Powered Chat Coach to help users achieve their fitness goals. Built using React Native (Expo CLI) for the front end and Firebase for authentication and data storage, the app leverages the OpenAI API to offer intelligent workout guidance and fitness coaching.
